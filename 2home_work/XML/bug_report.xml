@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CAT>
-  <documet_number>№1111</documet_number>
-  <title_of_works>Не работает кнопка отправки заказа</title_of_works>
-  <How_to_play>Как воспроизвести?</How_to_play>
-  <first_step>Открыть сайт *</first_step>
-  <second_step>Нажать по ссылке *</second_step>
-  <third_step>Пролистать до поля *</third_step>
-  <fifth_step>Ввести значение в поле *</fifth_step>
-  <sixth_step>Попытаться нажать кнопку отправки заказа</sixth_step>
-  <Actual_result>кнопка неактивна</Actual_result>
-  <Expected_Result>кнопка нажимается, можно сделать заказ</Expected_Result>
+  <Summary>Короткое описание</Summary>
+  <Project>Проект</Project>
+  <Version>Номер версии</Version>
+  <Severity>Серьезность</Severity>
+  <Priority>Приоритет</Priority>
+  <Status>Статус</Status>
+  <Author>Автор</Author>
+  <Assigned_To>Назначен на</Assigned_To>
+  <OS>ОС / Сервис Пак и т.д. / Браузера + версия /</OS>
+  <Steps_to_Reproduce>Шаги воспроизведения</Steps_to_Reproduce>
+  <Result>Фактический Результат</Result>
+  <Expected_Result>Ожидаемый результат</Expected_Result>
 </CAT>
