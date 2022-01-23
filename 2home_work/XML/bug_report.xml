@@ -12,7 +12,10 @@
   <Status>Открыт</Status>
   <Author>QA-tester</Author>
   <Assigned_To>Назначен на</Assigned_To>
-  <Steps_to_Reproduce>1)Открыть главную страницу сайта 2)Попытаться нажать кнопку (Зарегестрироваться).</Steps_to_Reproduce>
+  <Steps_to_Reproduce>
+  1)Открыть главную страницу сайта. 
+  2)Попытаться нажать кнопку (Зарегестрироваться).
+  </Steps_to_Reproduce>
   <Result>Кнопка (Зарегестрироваться) неактивна.</Result>
   <Expected_Result>Кнопка (Зарегестрироваться) нажимаеться, открываеться форма регестрации.</Expected_Result>
 </body>
