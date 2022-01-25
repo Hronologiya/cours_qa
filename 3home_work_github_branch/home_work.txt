@@ -10,16 +10,72 @@
 
 2. Запушить все ветки на внешний репозиторий
 
-                       В терминале вводим команду: git push -u origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
+    В терминале вводим команду: git push -u origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 
-                       В терминале вводим команду: git switch Bug_Reports
+    В терминале вводим команду: git switch Bag_Reports
                        
 4. Запушить структуру багрепорта на внешний репозиторий
+
+    В терминале вводим команды: git switch Bag_Reports
+                                touch Bag_Report.txt
+                                vim Bag_Report.txt
+                                Для редактирования жмем i и вводим данные.
+    ID:
+    Summary:
+    Project:
+    Version:
+    Priority:
+    Status:
+    Author:
+    Assigned To:
+    Steps to Reproduce:
+    Result:
+    Expected Result:
+    
+    В конце редактирования жмем Esc :wq
+                                
 5. Вмержить ветку Bag Reports в Main
+
+    В терминале вводим команды: git switch main
+                                git merge Bag_Reports
+                                
 6. Запушить main на внешний репозиторий.
+
+    В терминале вводим команду: git push
+    
 7. В ветке CheckLists набросать структуру чек листа.
+
+    В терминале вводим команду: git switch CheckLists
+                                cat > checklist.txt
+    Test ID
+    Date
+    Module
+    Test Case
+    Scenario to reproduce the bug. (If any bug found )
+    Status of the bug (Blocker / Critical )
+    Pass / Fail
+    Status of the build (Approved / Rejected )
+    Comment if any
+    
+    После внесения данных жмем Ctrl+c                            
+    
 8. Запушить структуру на внешний репозиторий
+
+    В терминале вводим команду: git add . ; git commit -m "Add new checklist" ; git push
+
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+
+    Заходим на сайт https://github.com/ выбираем свой репозиторий.
+    Жмем зеленую кнопку Compare & pull request.
+    Выбираем с какой ветки, в какую будем делать merge.
+    Записать коментарий.
+    Нажать зеленую кнопку "Create pull request"
+    Жмем зеленую кнопку Merge pull request
+    
 10. Синхронизировать Внешнюю и Локальную ветки Main
+
+    В терминале вводим команды: git switch main
+                                git pull
+
