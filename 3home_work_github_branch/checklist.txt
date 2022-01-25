@@ -1,0 +1,9 @@
+Test ID
+Date
+Module
+Test Case
+Scenario to reproduce the bug. (If any bug found )
+Status of the bug (Blocker / Critical )
+Pass / Fail
+Status of the build (Approved / Rejected )
+Comment if any
