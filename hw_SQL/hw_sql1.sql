@@ -51,7 +51,7 @@ where created_on='2021-07-12 00:00:00' and name~'Andrey';
 select * from students
 where created_on='2021-07-12 00:00:00' and name like '%8%';
 
---17. Вывести пользователя у которых id равен 110
+--17. Вывести пользователя у которых id равен 110(Не существует)
 select * from students
 where id=110;
 
@@ -85,7 +85,7 @@ where id > 180 and id < 190;
 
 --25. Вывести пользователя у которых id между 180 и 190
 select * from students 
-where id > 180 and id < 190;
+where id >= 180 and id <= 190;
 
 --26. Вывести пользователей где password равен 12333, 1m313, 123313
 select * from students 
