@@ -26,7 +26,7 @@ where password='12333';
 --10. Вывести пользователей где в имени есть слово Анна
 select name from students
 where name~'Anna';
-
+  
 --11. Вывести пользователей где в имени в конце есть 8
 select name from students
 where name like '%8';
